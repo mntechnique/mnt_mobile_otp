@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include mnt_mobile_otp *.css
+recursive-include mnt_mobile_otp *.csv
+recursive-include mnt_mobile_otp *.html
+recursive-include mnt_mobile_otp *.ico
+recursive-include mnt_mobile_otp *.js
+recursive-include mnt_mobile_otp *.json
+recursive-include mnt_mobile_otp *.md
+recursive-include mnt_mobile_otp *.png
+recursive-include mnt_mobile_otp *.py
+recursive-include mnt_mobile_otp *.svg
+recursive-include mnt_mobile_otp *.txt
+recursive-exclude mnt_mobile_otp *.pyc
